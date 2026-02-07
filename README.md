@@ -48,7 +48,7 @@ No cloud storage: All data remains on your local computer
 No background telemetry: Zero data collection
 
 # ⚠️ Required for volume/brightness control
-Download from the official website: https://www.nirsoft.net/utils/nircmd.html
+Download NirCmd from the official website: https://www.nirsoft.net/utils/nircmd.html
 
 Unzip nircmd.exe to the same folder as FMWinPC.py
 
@@ -203,7 +203,7 @@ Contact the bot: https://t.me/Timix_support_bot
 Нет фоновой телеметрии
 
 # ⚠️ Требуется для управления громкостью/яркостью
-Скачайте с официального сайта: https://www.nirsoft.net/utils/nircmd.html
+Скачайте NirCmd с официального сайта: https://www.nirsoft.net/utils/nircmd.html
 
 Распакуйте nircmd.exe в ту же папку, где находится FMWinPC.py
 
