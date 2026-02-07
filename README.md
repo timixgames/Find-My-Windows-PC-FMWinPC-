@@ -7,47 +7,72 @@
 # ✨ Features
 # 📊 System Monitoring
 Real-time CPU, RAM, GPU, and disk usage statistics
+
 Battery status with estimated remaining battery life
+
 Network activity monitoring (active connections)
+
 Idle time estimator (user activity)
 # 🎮 Remote Control
 Instant screenshot of all monitors
+
 Application Management: Launch your own programs, end processes via Task Manager
+
 Power Management: Sleep, Lock, Logout, Restart, Shutdown (with scheduling)
+
 Screen Brightness Adjustment
+
 Volume Control: Mute, Increase/Decrease volume
+
 Clipboard Sync: Copy text from your phone to your PC's clipboard
 # 🌐 Communications and Security
 Wi-Fi Monitoring: Notifications when your PC connects to new networks
+
 Geolocation: View your PC's current location with street/house number (via OpenStreetMap)
+
 Discovery USB devices (optional)
+
 Login history: View Windows security logs
+
 Find PC by sound: Play a sound to physically locate your computer
-# 🌍 Multi-language support
-🇷🇺 Russian / 🇬🇧 English (auto-detection on first launch)
+
+# 🌍 Multi-language support Russian / English
 Language selection persists across restarts
+
 All messages are displayed in system windows with the title "📩 New message"
 # 🔒 Privacy and security
 Single-user access: Only your Telegram ID can control your PC
+
 No cloud storage: All data remains on your local computer
+
 No background telemetry: Zero data collection
 
 # ⚠️ Required for volume/brightness control
 Download from the official website: https://www.nirsoft.net/utils/nircmd.html
+
 Unzip nircmd.exe to the same folder as FMWinPC.py
 
 # 🔑 REPLACE THESE VALUES BEFORE THE FIRST START!
 BOT_TOKEN = 'YOUR_TOKEN_HERE' # ← Get from @BotFather
+
 MY_USER_ID = 123456789 # ← Get from @userinfobot
+
 How to get these values:
+
 Message @BotFather in Telegram → /newbot → follow the instructions → copy the token
+
 Message @userinfobot → copy your ID
+
 
 # On first launch:
 The bot will automatically send a language selection (/start command)
-Select 🇷🇺 Russian or 🇬🇧 English
+
+Select 🇷🇺 Russian or English
+
 The settings will be saved in settings.txt for subsequent launches
+
 The bot will send a confirmation with a full control menu
+
 
 # 🚨 Troubleshooting
 Common issues and solutions
@@ -86,9 +111,13 @@ Control Panel → Programs → Turn Windows features on or off → Check "Window
 The bot supports two languages ​​with a fully translated interface: Russian and English.
 
 Change the language at any time:
+
 Open the bot menu
+
 Click 🌐 Language
+
 Select your preferred language
+
 The settings will be saved immediately in settings.txt
 
 # 🙏 Required components
@@ -111,9 +140,13 @@ OpenStreetMap - Geocoding services
 
 # 💬 Support
 Having problems? Open a GitHub Issue specifying:
+
 Windows versions (winver in the command line)
+
 Python versions (python --version)
+
 Full error log from the console
+
 Steps to reproduce the problem (if you have programming experience)
 
 Or
@@ -128,46 +161,70 @@ Contact the bot: https://t.me/Timix_support_bot
 # ✨ Возможности
 # 📊 Мониторинг системы
 Статистика загрузки процессора, оперативной памяти, видеокарты и дисков в реальном времени
+
 Статус батареи с оценкой оставшегося времени
+
 Мониторинг сетевой активности (активные подключения)
+
 Определение времени простоя (активность пользователя)
+
 # 🎮 Удаленное управление
 Скриншот всех мониторов мгновенно
+
 Управление приложениями: запуск своих программ, завершение процессов через Диспетчер задач
+
 Управление питанием: Сон, Блокировка, Выход из системы, Перезагрузка, Выключение (с планированием)
+
 Регулировка яркости экрана
+
 Управление громкостью: вкл/выкл звук, увеличение/уменьшение громкости
+
 Синхронизация буфера обмена: копирование текста с телефона в буфер ПК
 # 🌐 Связь и безопасность
 Мониторинг Wi-Fi: уведомления при подключении ПК к новым сетям
+
 Геолокация: просмотр текущего местоположения ПК с указанием улицы/дома (через OpenStreetMap)
+
 Обнаружение USB-устройств (опционально)
+
 История входов: просмотр журналов безопасности Windows
+
 Поиск ПК по звуку: воспроизведение звукового сигнала для физического поиска компьютера
-# 🌍 Поддержка нескольких языков
-🇷🇺 Русский / 🇬🇧 English (автоопределение при первом запуске)
+# 🌍 Поддержка нескольких языков: Русский / English
+
 Выбор языка сохраняется между перезапусками
+
 Все сообщения отображаются в системных окнах с заголовком «📩 Новое сообщение»
 # 🔒 Приватность и безопасность
 Доступ только для одного пользователя: только ваш Telegram ID может управлять ПК
+
 Нет облачного хранения: все данные остаются на вашем локальном компьютере
-Нет фоновой телеметрии: нулевой сбор данных
+
+Нет фоновой телеметрии
 
 # ⚠️ Требуется для управления громкостью/яркостью
 Скачайте с официального сайта: https://www.nirsoft.net/utils/nircmd.html
+
 Распакуйте nircmd.exe в ту же папку, где находится FMWinPC.py
 
 # 🔑 ЗАМЕНИТЕ ЭТИ ЗНАЧЕНИЯ ПЕРЕД ПЕРВЫМ ЗАПУСКОМ!
-BOT_TOKEN = 'ВАШ_ТОКЕН_ЗДЕСЬ'  # ← Получите у @BotFather
+BOT_TOKEN = 'YOUR_TOKEN_HERE'  # ← Получите у @BotFather
+
 MY_USER_ID = 123456789          # ← Получите у @userinfobot
+
 Как получить эти значения:
+
 Напишите @BotFather в Telegram → /newbot → следуйте инструкциям → скопируйте токен
+
 Напишите @userinfobot → скопируйте ваш ID
 
 # При первом запуске:
 Бот автоматически отправит выбор языка (команда /start)
-Выберите 🇷🇺 Русский или 🇬🇧 English
+
+Выберите Русский или English
+
 Настройки сохранятся в settings.txt для последующих запусков
+
 Бот отправит подтверждение с полным меню управления
 
 # 🚨 Устранение неполадок
@@ -207,9 +264,13 @@ PowerShell 5.1+ (включен по умолчанию)
 Бот поддерживает два языка с полным переводом интерфейса: Русский (Russian) и Английский (English)
 
 Изменить язык в любое время:
+
 Откройте меню бота
+
 Нажмите 🌐 Язык / 🌐 Language
+
 Выберите предпочитаемый язык
+
 Настройки сохранятся немедленно в settings.txt
 
 # 🙏 Необходимые компоненты
@@ -232,9 +293,13 @@ OpenStreetMap - Сервисы геокодирования
 
 # 💬 Поддержка
 Возникли проблемы? Откройте GitHub Issue с указанием:
+
 Версии Windows (winver в командной строке)
+
 Версии Python (python --version)
+
 Полного лога ошибок из консоли
+
 Шагов для воспроизведения проблемы (если вы разбираетесь в программировании)
 
 Или
